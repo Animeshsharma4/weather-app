@@ -10,14 +10,10 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-<link rel="stylesheet" href="css\signup.css">
+    <link rel="stylesheet" href="../css\signin.css">
     <style>
       /* External Styles */
  
-
-
-/* ... Other styles remain the same ... */
-
 
       /* External Styles */
     </style>
@@ -29,7 +25,7 @@
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
-              src="img\weathericon2.jpeg"
+              src="../img\weathericon2.jpeg"
               alt="Logo"
               width="30"
               height="24"
@@ -37,28 +33,16 @@
             />
             WeatherApp</a
           >
-                      <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+           <ul class="navbar-nav me-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link  " aria-current="page" href="signin.html"
-                  >Signin</a
+                <a class="nav-link  " aria-current="page" href="signup.html"
+                  >Signup</a
                 >
               </li>
             
               
             </ul>
-            <!-- <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form> -->
-          </div>
+            
             
           </div>
         </div>
@@ -73,12 +57,12 @@
       <form onsubmit="return validateForm()">
         <img
           class="mb-4"
-          src="img\weathericon.jpeg"
+          src="../img\weathericon.jpeg"
           alt=""
           width="72"
           height="57"
         />
-        <h1 class="h3 mb-3 fw-normal text-center">Please sign up</h1>
+        <h1 class="h3 mb-3 fw-normal text-center">Please sign in</h1>
 
         <div class="form-floating custom-form-floating">
           <input
@@ -99,16 +83,6 @@
           <label for="floatingPassword">Password</label>
         </div>
 
-
-         <div class="form-floating custom-form-floating">
-          <input
-            type="password"
-            class="form-control form-control-sm"
-            id="floatingconfirmPassword"
-            placeholder="confirmPassword"
-          />
-          <label for="floatingconfirmPassword">Confirm Password</label>
-        </div>
         <div class="form-check">
           <input
             class="form-check-input"
@@ -116,19 +90,18 @@
             value="remember-me"
             id="flexCheckDefault"
           />
-        
           <label class="form-check-label" for="flexCheckDefault">
             Remember me
           </label>
         </div>
 
         <div class="text-center">
-          <button class="btn btn-primary" type="submit" >Sign up</button>
+          <button class="btn btn-primary" type="submit" >Sign in</button>
         </div>
       </form>
       <div id="error-message" style="color: red"></div>
     </main>
-  <div id="spacing"></div>
+<div id="spacing"></div>
     <!-- Footer -->
     
       <footer
@@ -151,26 +124,26 @@
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3">
             <a class="text-body-secondary" href="#"
-              ><img class="bi" width="24" height="24" src="img\twitter.png" />
+              ><img class="bi" width="24" height="24" src="../img\twitter.png" />
             </a>
           </li>
           <li class="ms-3">
             <a class="text-body-secondary" href="#"
-              ><img class="bi" width="24" height="24" src="img\instagram.png" />
+              ><img class="bi" width="24" height="24" src="../img\instagram.png" />
             </a>
           </li>
           <li class="ms-3">
             <a class="text-body-secondary" href="#"
-              ><img class="bi" width="24" height="24" src="img\facebook.png" />
+              ><img class="bi" width="24" height="24" src="../img\facebook.png" />
             </a>
           </li>
         </ul>
       </footer>
+     
     <script>
       function validateForm() {
         var username = document.getElementById("floatingInput").value;
         var password = document.getElementById("floatingPassword").value;
-        var confirmpassword=document.getElementById("floatingconfirmPassword").value;
         var errorMessage = document.getElementById("error-message");
         errorMessage.innerHTML = "";
 
@@ -218,10 +191,6 @@
         if (!/[@#$%^&+=]/.test(password)) {
           errorMessage.innerHTML =
             "Password must contain at least one special character (@#$%^&+=).";
-          return false;
-        }
-        if(confirmpassword!=password){
-          errorMessage.innerHTML="password and confirm password need to be same.";
           return false;
         }
 

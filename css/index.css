@@ -1,5 +1,5 @@
 body {
-  background-image: url("css/img/oback.jpg");
+  background-image: url("../img/oback.jpg");
 
   background-size: cover;
   background-position: center;
@@ -114,4 +114,7 @@ body {
 }
 #logouti {
   padding-left: 687px;
+}
+.bi{
+      margin-right: 28px;
 }

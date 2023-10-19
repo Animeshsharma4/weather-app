@@ -1,5 +1,5 @@
 body {
-      background-image: url("img/oback.jpg"); /* Set the background image you prefer */
+      background-image: url("../img/oback.jpg"); /* Set the background image you prefer */
       margin: 0;
       background-size: cover;
       background-position: center;
@@ -27,11 +27,6 @@ body {
     }
 
 
-/* main.form-signin {
-  flex-grow: 1;
-} */
-
-
 
 
 main.form-signin {
@@ -51,9 +46,9 @@ main.form-signin {
           227,
           227,
           0.7
-        ); /* Background color with transparency */
-        padding: 20px; /* Add padding for spacing */
-        border-radius: 10px; /* Rounded corners for the content */
+        ); 
+        padding: 20px; 
+        border-radius: 10px; 
       }
 
       #floatingInput {

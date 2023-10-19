@@ -1,5 +1,5 @@
      body {
-        background-image: url("img/oback.jpg"); /* Set the background color you prefer */
+        background-image: url("../img/oback.jpg"); /* Set the background color you prefer */
         margin: 0;
         background-size: cover;
         background-position: center;
