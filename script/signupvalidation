@@ -55,6 +55,6 @@
           errorMessage.innerHTML="password and confirm password need to be same.";
           return false;
         }
-
-        return true;
+window.location.href = "../html/index.html";
+        return false;
       }

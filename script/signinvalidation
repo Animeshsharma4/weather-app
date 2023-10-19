@@ -50,6 +50,19 @@
             "Password must contain at least one special character (@#$%^&+=).";
           return false;
         }
-
-        return true;
+          window.location.href = "../html/index.html";
+        return false;
+    
       }
+ 
+      //  function checkresult() {
+
+      //   //  if (validateForm()) {
+      //   //    window.location.href = '../html/index.html';
+      //   //  }
+      //  }
+
+      //  document.getElementById("submitbtn")
+      //    .addEventListener("click", checkresult);
+
+    
