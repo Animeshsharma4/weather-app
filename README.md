@@ -4,15 +4,15 @@
 The Weather App is a user-friendly application that provides real-time weather information for any location worldwide. It allows users to easily access current weather conditions as well as detailed weather data such as temperature, humidity, wind speed.
 
 # Features
-1  Current weather conditions: Get up-to-date information on temperature, humidity, wind speed, and atmospheric pressure for any location.
-2   User-friendly interface: Enjoy a clean and intuitive design that makes it easy to navigate and access weather information quickly.
+=>  Current weather conditions: Get up-to-date information on temperature, humidity, wind speed, and atmospheric pressure for any location.
+=>   User-friendly interface: Enjoy a clean and intuitive design that makes it easy to navigate and access weather information quickly.
 
 # Installation
-Clone the repository from GitHub:
-         git clone https://github.com/Animeshsharma4/weather-app.git
+=> Clone the repository from GitHub:
+    =>     git clone https://github.com/Animeshsharma4/weather-app.git
          
-Install the required dependencies:
-         npm install
+=> Install the required dependencies:
+        => npm install
 
 Obtain an API key from a weather data provider (e.g., OpenWeatherMap).
 
