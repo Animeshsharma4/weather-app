@@ -19,10 +19,6 @@ The Weather App is a user-friendly application that provides real-time weather i
 
 3 Obtain an API key from a weather data provider (e.g., OpenWeatherMap).
 
-4 Create a .env file in the root directory of the project and add your API key:
-
-          =>API_KEY=your-api-key
-
 5 Start the application:
 
           =>npm start
