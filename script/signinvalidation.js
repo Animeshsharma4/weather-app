@@ -55,14 +55,6 @@
     
       }
  
-      //  function checkresult() {
-
-      //   //  if (validateForm()) {
-      //   //    window.location.href = '../html/index.html';
-      //   //  }
-      //  }
-
-      //  document.getElementById("submitbtn")
-      //    .addEventListener("click", checkresult);
+     
 
     

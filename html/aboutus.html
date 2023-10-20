@@ -104,17 +104,7 @@
                 <a class="nav-link" href="signin.html">Logout</a>
               </li>
             </ul>
-            <!-- <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form> -->
+            
           </div>
         </div>
       </nav>
@@ -124,195 +114,95 @@
   
 
       <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
+        
         <div class="row">
           <div class="col-lg-4">
-            <!-- <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            > -->
-              <!-- <title>Placeholder</title> -->
-              <!-- <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect> -->
+        
               <img src="../img\zdroje.png" alt="" width="150px" height="120px">
-            <!-- </svg> -->
+        
             <h2 class="fw-normal">DATA SOURCES</h2>
-            <!-- <p>
-              Some representative placeholder content for the three columns of
-              text below the carousel. This is the first column.
-            </p> -->
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+         
+            <p><a class="btn btn-secondary" href="#datasources">View details »</a></p>
           </div>
-          <!-- /.col-lg-4 -->
+          
           <div class="col-lg-4">
-            <!-- <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg> -->
+          
             <img src="../img\hledani.png" alt="" width="150px" height="120px">
             <h2 class="fw-normal">HELP</h2>
            
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            <p><a class="btn btn-secondary" href="#help">View details »</a></p>
           </div>
         
           <div class="col-lg-4" id="cornerplace">
-            <!-- <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-color)"
-              ></rect>
-            </svg> -->
+         
             <img src="../img\2019-06-24-satelit-spolecna.jpg" alt="" width="150px" height="120px">
             <h2 class="fw-normal">DEVELOPERS</h2>
           
-            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+            <p><a class="btn btn-secondary" href="#developers">View details »</a></p>
           </div>
-          <!-- /.col-lg-4 -->
+          
         </div>
-        <!-- /.row -->
-
-        <!-- START THE FEATURETTES -->
-
+       
         <hr class="featurette-divider" />
 
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
+        <div class="row featurette" id="datasources">
+          <div class="col-md-7" >
+            <h2 class="featurette-heading fw-normal lh-1" >
             
-              <span class="text-body-secondary">DATA SOURCES</span>
+              <span class="text-body-secondary" >DATA SOURCES</span>
             </h2>
             <p class="lead">
-              The main provider of meteorological data for Ventusky is DWD and NOAA. However, the radar layers have several other country-specific sources. All used sources are sumarized on the page Data sources.
+              The main provider of meteorological data for Weatherapp is OpenWeatherMap API.It allows users to easily access current weather conditions as well as detailed weather data such as temperature, humidity, wind speed. 
             </p>
           </div>
           <div class="col-md-5">
-            <!-- <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-bg)"
-              ></rect>
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg> -->
+     
             <img src="../img\zdroje.png"  width="300" height="300"alt="">
           </div>
         </div>
 
-        <hr class="featurette-divider" />
+        <hr class="featurette-divider"  />
 
-        <div class="row featurette">
+        <div class="row featurette" id="help">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">
               
               <span class="text-body-secondary">HELP</span>
             </h2>
             <p class="lead">
-              The following is some information and a number of tips that will be useful when using the Ventusky application.
-              Searching
-In the Ventusky application, you can use the search feature to find your location, which you can add to your favourite locations via the side panel (by clicking on the star). Your favourite locations will be highlighted on the map, so you can always find them quickly. In the search feature, you can enter the name of your city or specific GPS coordinates (i.e. in the format: 50.2, 40.3).
+              
+              Searching: <br><br>
+In the weather app, you can use the search feature to find your location, which you can add to your favourite locations . In the search feature, you can enter the name of your city.
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <!-- <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-bg)"
-              ></rect>
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg> -->
+        
             <img src="../img\hledani.png" width="300" height="300"alt="">
           </div>
         </div>
 
         <hr class="featurette-divider" />
 
-        <div class="row featurette">
+        <div class="row featurette" id="developers">
           <div class="col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">
             
               <span class="text-body-secondary">DEVELOPERS</span>
             </h2>
             <p class="lead">
-             The Ventusky web application has been developed for you at our company, InMeteo, in collaboration with Marek Mojzík and Martin Prantl. We are a meteorological company. At our company, we focus on weather prediction and meteorological data visualisation. We have a wealth of experience in presenting weather data from our portal, In-počasí, which was founded in 2006 and is now one of the highest-traffic servers in the Czech Republic. We decided to take advantage of our knowledge and experience and create a top-quality application that clearly displays meteorological data from around the world and allows you to monitor weather development for any place on earth.
+             The weather web application has been developed for you at our company, InMeteo, in collaboration with Marek Mojzík and Martin Prantl. We are a meteorological company. At our company, we focus on weather prediction. We have a wealth of experience in presenting weather data from our portal.
             </p>
           </div>
           <div class="col-md-5">
-            <img src="../img\2019-06-24-satelit-spolecna.jpg" width="400" height="400" alt="">
+            <img src="../img\2019-06-24-satelit-spolecna.jpg" width="328" height="250" alt="">
           </div>
         </div>
 
         <hr class="featurette-divider" />
 
-        <!-- /END THE FEATURETTES -->
+       
       </div>
-      <!-- /.container -->
-
-      <!-- FOOTER -->
-      <!-- <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>
-          © 2017–2023 Company, Inc. · <a href="#">Privacy</a> ·
-          <a href="#">Terms</a>
-        </p>
-      </footer> -->
+   </main>
 
       <div id="footer1">
       <footer
@@ -351,7 +241,7 @@ In the Ventusky application, you can use the search feature to find your locatio
         </ul>
       </footer>
     </div>
-    </main>
+    <!-- </main> -->
     <script
       src="/docs/5.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
