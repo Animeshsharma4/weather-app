@@ -5,7 +5,7 @@ body {
       background-position: center;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+      /* justify-content: center; */
       align-items: center;
       min-height: 100%;
       background-repeat: no-repeat;
@@ -13,13 +13,7 @@ body {
       background-position: center;
     }
 
-    main.form-signin {
-      margin-top: 80px;
-      text-align: center;
-      background-color: rgba(240, 227, 227, 0.7);
-      padding: 20px;
-      border-radius: 10px;
-    }
+
 
     footer {
       width: 100%;
@@ -29,7 +23,7 @@ body {
 
 
 
-main.form-signin {
+main.form-signup {
   margin-top: 80px;
   text-align: center;
   background-color: rgba(240, 227, 227, 0.7);
@@ -39,27 +33,17 @@ main.form-signin {
 
 
 
-      main.form-signin {
-        text-align: center;
-        background-color: rgba(
-          240,
-          227,
-          227,
-          0.7
-        ); 
-        padding: 20px; 
-        border-radius: 10px; 
-      }
+  
 
-      #floatingInput {
+      /* #floatingInput {
         margin-top: -10px;
-      }
+      } */
 
       /* ... Other styles remain the same ... */
 
-      .text-center {
+      /* .text-center {
         padding-bottom: 13px;
-      }
+      } */
 
       .form-check {
         text-align: left;

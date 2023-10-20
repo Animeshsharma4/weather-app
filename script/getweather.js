@@ -24,6 +24,7 @@ function getWeather() {
     })
     .catch((error) => {
       const weatherInfo = document.getElementById("weatherInfo");
-      weatherInfo.innerHTML = `<p>${error.message}</p>`;
+      // weatherInfo.innerHTML = `<p>${error.message}</p>`;
+      weatherInfo.innerHTML = `please enter correct information`;
     });
 }

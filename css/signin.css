@@ -4,20 +4,14 @@
         background-size: cover;
         background-position: center;
         display: flex;
-        justify-content: center;
+        /* justify-content: center; */
         align-items: center;
         height: 100vh;
+        flex-direction: column;
       }
-      body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
 
 
-/* main.form-signin {
-  flex-grow: 1;
-} */
+
 
 footer {
   width: 100%;
@@ -38,8 +32,8 @@ main.form-signin {
 
 
 
-      main.form-signin {
-        text-align: center;
+      /* main.form-signin {
+       
         background-color: rgba(
           240,
           227,
@@ -48,11 +42,11 @@ main.form-signin {
         ); /* Background color with transparency */
         padding: 20px; /* Add padding for spacing */
         border-radius: 10px; /* Rounded corners for the content */
-      }
+      } */
 
-      #floatingInput {
+      /* #floatingInput {
         margin-top: -10px;
-      }
+      } */
 
       /* ... Other styles remain the same ... */
 
@@ -65,22 +59,22 @@ main.form-signin {
         margin-top: 13px;
       }
 
-      .custom-form-floating {
+       .custom-form-floating {
         width: 250px;
         margin: 0 auto;
-      }
+      } 
 
       .form-floating {
         margin-top: 12px;
-      }
+      } 
 
       .btn-primary {
         margin-top: 20px;
       }
 
-#spacing{
+/* #spacing{
   margin-bottom: 100px;
-}
+} */
 .bi{
       margin-right: 28px;
 }
