@@ -13,9 +13,8 @@ body {
 }
 
 .container {
-  /* flex: 1;   */
-   padding-top: 50px; 
-} 
+  padding-top: 50px;
+}
 
 .bgchange {
   background-color: rgba(255, 255, 255, 0.2);
@@ -58,14 +57,6 @@ body {
   margin-bottom: 20px;
 }
 
-/* .form-group {
-  margin-bottom: 20px;
-} */
-
-/* .form-control {
-  border-radius: 5px;
-} */
-
 .btn-primary {
   background-color: #007bff;
   border: none;
@@ -92,17 +83,6 @@ body {
   text-align: center;
 }
 
-/* @media (max-width: 768px) {
-  .container {
-    padding-top: 20px;
-  }
-  .weather-icon {
-    font-size: 48px;
-  }
-  .weather-info p {
-    font-size: 18px;
-  }
-} */
 .d-flex {
   background-color: white;
 }
@@ -115,6 +95,6 @@ body {
 #logouti {
   padding-left: 687px;
 }
-.bi{
-      margin-right: 28px;
+.bi {
+  margin-right: 28px;
 }

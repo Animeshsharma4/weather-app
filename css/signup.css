@@ -1,27 +1,22 @@
 body {
-      background-image: url("../img/oback.jpg"); /* Set the background image you prefer */
-      margin: 0;
-      background-size: cover;
-      background-position: center;
-      display: flex;
-      flex-direction: column;
-      /* justify-content: center; */
-      align-items: center;
-      min-height: 100%;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-    }
+  background-image: url("../img/oback.jpg"); /* Set the background image you prefer */
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
 
+  align-items: center;
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
-
-    footer {
-      width: 100%;
-       margin-top: auto;
-    }
-
-
-
+footer {
+  width: 100%;
+  margin-top: auto;
+}
 
 main.form-signup {
   margin-top: 80px;
@@ -31,43 +26,29 @@ main.form-signup {
   border-radius: 10px;
 }
 
+.form-check {
+  text-align: left;
+  margin-top: 13px;
+}
 
+.custom-form-floating {
+  width: 250px;
+  margin: 0 auto;
+}
 
-  
+.form-floating {
+  margin-top: 12px;
+}
 
-      /* #floatingInput {
-        margin-top: -10px;
-      } */
-
-      /* ... Other styles remain the same ... */
-
-      /* .text-center {
-        padding-bottom: 13px;
-      } */
-
-      .form-check {
-        text-align: left;
-        margin-top: 13px;
-      }
-
-      .custom-form-floating {
-        width: 250px;
-        margin: 0 auto;
-      }
-
-      .form-floating {
-        margin-top: 12px;
-      }
-
-      .btn-primary {
-        margin-top: 20px;
-      }
-     #spacing{
+.btn-primary {
+  margin-top: 20px;
+}
+#spacing {
   margin-bottom: 40px;
 }
-.nav-link{
+.nav-link {
   margin-left: 1568%;
 }
-.bi{
-      margin-right: 28px;
+.bi {
+  margin-right: 28px;
 }
